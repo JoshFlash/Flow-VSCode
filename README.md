@@ -1,65 +1,29 @@
-# flow-lang README
+# Flow Language Support for Visual Studio Code
 
-This is the README for your extension "flow-lang". After writing up a brief description, we recommend including the following sections.
+![Flow Language Support](images/flow.png)
+
+This extension provides syntax highlighting for the Flow programming language in Visual Studio Code. Flow is a powerful and expressive language designed for modern software development.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Syntax highlighting for Flow source files
+- More features coming soon!
 
-For example if there is an image subfolder under your extension project workspace:
+## Installation
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Open the **Extensions** sidebar in Visual Studio Code
+2. Search for `Flow` and look for the extension published by josh-flash
+3. Click **Install** to install the extension
+4. Click **Reload** to reload Visual Studio Code
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Usage
 
-## Requirements
+This extension automatically provides syntax highlighting for files with the `.flo` and `.flow` extensions. To manually set the language mode for a file, click the language indicator in the bottom-right corner of the VS Code window (e.g., "Plain Text"), search for "Flow", and select it from the list.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Contributing
 
-## Extension Settings
+If you have any ideas for improvements, find any bugs, or want to contribute to the development of this extension, please check out the [GitHub repository](https://github.com/your-github-username/flow-lang).
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## License
 
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+This extension is licensed under the [MIT License].
