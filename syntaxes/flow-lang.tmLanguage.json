@@ -1,0 +1,71 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "Flow",
+    "patterns": [
+        {
+            "include": "#comments"
+        },
+        {
+            "include": "#keywords"
+        },
+        {
+            "include": "#types"
+        },
+        {
+            "include": "#strings"
+        },
+        {
+            "include": "#numbers"
+        },
+        {
+            "include": "#operators"
+        }
+    ],
+    "repository": {
+        "comments": {
+            "patterns": [
+                {
+                    "name": "comment.block.flow-lang",
+                    "begin": "#",
+                    "end": "#"
+                }
+            ]
+        },
+        "keywords": {
+            "patterns": [
+                {
+                    "name": "keyword.control.flow-lang",
+                    "match": "\\b(if|while|for|return|let|var|const|import|module|in|where|is|and|not|true|false)\\b"
+                }
+            ]
+        },
+        "types": {
+            "patterns": [
+                {
+                    "name": "storage.type.flow-lang",
+                    "match": "\\b(int|string|bool|array)\\b"
+                }
+            ]
+        },
+        "strings": {
+            "name": "string.quoted.double.flow-lang",
+            "begin": "\"",
+            "end": "\"",
+            "patterns": [
+                {
+                    "name": "constant.character.escape.flow-lang",
+                    "match": "\\\\."
+                }
+            ]
+        },
+        "numbers": {
+            "name": "constant.numeric.flow-lang",
+            "match": "\\b\\d+\\b"
+        },
+        "operators": {
+            "name": "keyword.operator.flow-lang",
+            "match": "\\+|-|\\*|\\/|>|<|>=|<=|==|\\.|\\(|\\)|\\[|\\]|{|}|:|;|,|="
+        }
+    },
+    "scopeName": "source.flow-lang"
+}

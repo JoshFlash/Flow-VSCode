@@ -1,0 +1,35 @@
+{
+    "name": "flow-lang",
+    "displayName": "Flow",
+    "description": "Flow Language Support for VS Code",
+    "version": "0.0.1",
+    "publisher": "josh-flash",
+    "license": "MIT",
+    "icon": "images/flow.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JoshFlash/Flow-VSCode.git"
+    },
+    "bugs": {
+        "url": "https://github.com/JoshFlash/Flow-VSCode/issues"
+    },
+    "engines": {
+        "vscode": "^1.76.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+        "id": "flow-lang",
+        "aliases": ["Flow", "flow-lang"],
+        "extensions": [".flo",".flow"],
+        "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+        "language": "flow-lang",
+        "scopeName": "source.flow-lang",
+        "path": "./syntaxes/flow-lang.tmLanguage.json"
+        }]
+    }
+}
